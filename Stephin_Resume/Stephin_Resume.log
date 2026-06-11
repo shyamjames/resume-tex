@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.6)  11 JUN 2026 23:09
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.6.6)  11 JUN 2026 23:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -369,20 +369,20 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 72.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 75.
+(Font)              <7> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 75.
+(Font)              <5> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 75.
-<stephin.jpeg, id=28, 1244.65pt x 1606.0pt>
+(Font)              <10.95> on input line 76.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 76.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 76.
+<stephin.jpeg, id=30, 1244.65pt x 1606.0pt>
 File: stephin.jpeg Graphic file (type jpg)
 <use stephin.jpeg>
-Package pdftex.def Info: stephin.jpeg  used on input line 79.
+Package pdftex.def Info: stephin.jpeg  used on input line 80.
 (pdftex.def)             Requested size: 70.00378pt x 90.32747pt.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 94.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 94.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -406,7 +406,7 @@ Package rerunfilecheck Info: File `Stephin_Resume.out' has not changed.
 Here is how much of TeX's memory you used:
  10976 strings out of 469472
  172886 string characters out of 5469747
- 611931 words of memory out of 5000000
+ 612931 words of memory out of 5000000
  39529 multiletter control sequences out of 15000+600000
  632967 words of font info for 57 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
@@ -415,11 +415,12 @@ Here is how much of TeX's memory you used:
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on Stephin_Resume.pdf (1 page, 198645 bytes).
+cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></u
+sr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Stephin_Resume.pdf (1 page, 208175 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 55 compressed objects within 1 object stream
+ 79 PDF objects out of 1000 (max. 8388607)
+ 60 compressed objects within 1 object stream
  8 named destinations out of 1000 (max. 500000)
  54 words of extra memory for PDF output out of 10000 (max. 10000000)
 

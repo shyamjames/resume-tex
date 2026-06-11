@@ -1,3 +1,8 @@
+CONTACT INFO
+E-mail: antonystephin216@gmail.com
+LinkedIn: https://www.linkedin.com/in/stephin-antony-a8155b327?utm_source=share_via&utm_content=profile&utm_medium=member_android
+Phone: 9778157150
+
 EDUCATION
 St Thomas College, Palai (Mahatma Gandhi University) 2022 - 2025 PALA,KERALA
 Bachelor of  Arts (Political Science)
