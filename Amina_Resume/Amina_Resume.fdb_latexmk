@@ -1,0 +1,19 @@
+# Fdb version 4
+["pdflatex"] 1775038324.90766 "/home/shyam/Documents/resume/Amina_Resume/Amina_Resume.tex" "Amina_Resume.pdf" "Amina_Resume" 1775038324.95295 2
+  "/home/shyam/Documents/resume/Amina_Resume/Amina_Resume.tex" 1775038323.92648 4808 3492cfdf5ec7dafbbc90071519fb5d36 ""
+  "/usr/share/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1772820570 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/share/texmf-dist/tex/latex/base/article.cls" 1772820570 20144 b966087dda3b194755eb460d32e2ef75 ""
+  "/usr/share/texmf-dist/tex/latex/base/latexsym.sty" 1772820570 2853 45a98f589f86476fadff19a8edda5ea9 ""
+  "/usr/share/texmf-dist/tex/latex/base/size11.clo" 1772820570 8464 f339f4d5391fbe0425b2d94c90e6819e ""
+  "/usr/share/texmf-dist/tex/latex/preprint/fullpage.sty" 1772820570 2789 05b418f78b224ec872f5b11081138605 ""
+  "/usr/share/texmf-dist/tex/latex/titlesec/titlesec.sty" 1772820570 48766 87a17a4ef312a39cd43896e34a679a56 ""
+  "/usr/share/texmf-dist/web2c/texmf.cnf" 1772820570 43569 fd570f2fa160877d211e859f687312ba ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1774636105 3084557 c93348a5e31905ff75c0bc2310d56200 ""
+  "Amina_Resume.aux" 1775038316.90715 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "Amina_Resume.tex" 1775038323.92648 4808 3492cfdf5ec7dafbbc90071519fb5d36 ""
+  "marvosym.sty" 0 -1 0 ""
+  (generated)
+  "Amina_Resume.aux"
+  "Amina_Resume.log"
+  "Amina_Resume.pdf"
+  (rewritten before read)

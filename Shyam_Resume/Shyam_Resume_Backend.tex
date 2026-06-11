@@ -1,0 +1,157 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{geometry}
+
+% Page layout
+\geometry{
+    a4paper,
+    left=0.75in,
+    right=0.75in,
+    top=0.6in,
+    bottom=0.6in
+}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Shyam James} \\ \vspace{5pt}
+    \small +91 79070 75318 $|$ \href{mailto:shyamjames.dev@gmail.com}{\underline{shyamjames.dev@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/shyamjames74}{\underline{linkedin.com/in/shyamjames74}} $|$
+    \href{https://github.com/shyamjames}{\underline{github.com/shyamjames}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\vspace{2pt}
+\small{MCA student and Linux power user with hands-on experience building and deploying Python and Django web applications. Proficient in managing databases, structuring backend logic, and automating workflows through shell scripting across the full development lifecycle. Comfortable with Git-based workflows, Docker containerization, and CI/CD pipelines; seeking a backend engineering internship to apply and deepen these skills in a production environment.}
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, SQL, Shell Scripting, Java} \\
+     \textbf{Frameworks}{: Django, Flask} \\
+     \textbf{Databases}{: PostgreSQL, SQLite} \\
+     \textbf{DevOps \& Tools}{: Docker, Git, GitHub Actions, CI/CD} \\
+     \textbf{Methodologies}{: Agile, Problem-Solving, Remote Collaboration} \\
+    }}
+ \end{itemize}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Email Spam Detection} $|$ \emph{Python, Django, Git}}{}
+          \resumeItemListStart
+            \resumeItem{Built and deployed a full-stack spam detection system with a Django backend, integrating an ML classification model with web and Android frontends.}
+            \resumeItem{Managed the complete backend lifecycle: model integration, view logic, request handling, and version-controlled deployment via Git.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{System Resource Monitor} $|$ \emph{Java Swing, PostgreSQL}}{} 
+          \resumeItemListStart
+            \resumeItem{Developed a real-time infrastructure monitoring application that tracks live CPU, memory, and disk I/O metrics with minimal overhead.}
+            \resumeItem{Designed and implemented a PostgreSQL-backed logging system, persisting 100+ historical monitoring snapshots for trend analysis.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Image Web Pipeline} $|$ \emph{Shell Scripting, Makefiles, CI/CD Automation}}{}
+          \resumeItemListStart
+             \resumeItem{Architected an automation pipeline using Makefiles and shell scripting to process and optimize web assets, cutting manual build time significantly.}
+             \resumeItem{Structured the pipeline to mirror CI/CD deployment workflows, automating build, test, and release stages.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {RLabz}{December 2025 -- Present}
+      {Web Developer}{Ernakulam, Kerala}
+      \resumeItemListStart
+        \resumeItem{Managed deployment and ongoing maintenance of the 11th International Conference website (icswhmh.com), supporting a global audience.}
+        \resumeItem{Maintained 99.9\% uptime by overseeing production hosting infrastructure and proactively resolving server-side issues.}
+        \resumeItem{Coordinated cross-browser compatibility testing across 3+ major platforms to ensure consistent application behaviour.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Christuraj Hostel}{January 2022 -- March 2024}
+      {Website Administrator}{Palai, Kerala}
+      \resumeItemListStart
+        \resumeItem{Administered and redesigned the official website over a 2-year period, improving UI and content structure for better user engagement.}
+        \resumeItem{Monitored site performance and implemented web accessibility standards, ensuring consistent uptime and standards compliance.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rajagiri College of Social Sciences}{2025 -- 2027}
+      {Master of Computer Applications (MCA)}{Ernakulam, Kerala}
+    \resumeSubheading
+      {St. Thomas College, Palai (Mahatma Gandhi University)}{2021 -- 2024}
+      {Bachelor of Computer Applications (BCA)}{Palai, Kerala}
+    \resumeSubheading
+      {Jawahar Navodaya Vidyalaya}{2014 -- 2021}
+      {12th CBSE (87\%), 10th CBSE (89.6\%)}{Wayanad, Kerala}
+  \resumeSubHeadingListEnd
+
+\end{document}

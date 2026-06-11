@@ -1,0 +1,20 @@
+Projects
+SystemResourceMonitor
+Developed a Java Swing application for real-time infrastructure monitoring, tracking live CPU, memory, and disk I/O metrics.
+
+Implemented a logging system using PostgreSQL to record monitoring sessions and historical snapshots for system performance analysis.
+
+Image Web Pipeline
+Engineered a high-performance automation pipeline using Makefiles to streamline the generation of responsive web assets.
+
+Optimized the development workflow by creating a script-based approach to handle asset processing and deployment readiness.
+
+Conference Website Deployment (icswhmh.com)
+Managed the deployment and maintenance of the official website for the 11th International Conference on Social Work in Health and Mental Health.
+
+Led efforts in ensuring front-end responsiveness and cross-device compatibility to maintain a seamless production environment.
+
+Full-Stack Application Deployment
+Developed and deployed an email spam detection system using Django, facilitating its integration across both Web and Android platforms.
+
+Managed the full application lifecycle, from Python-based backend development to cross-platform deployment.

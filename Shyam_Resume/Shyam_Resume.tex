@@ -1,0 +1,161 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{geometry}
+
+% Page layout
+\geometry{
+    a4paper,
+    left=0.75in,
+    right=0.75in,
+    top=0.6in,
+    bottom=0.6in
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins managed by geometry package
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Shyam James} \\ \vspace{5pt}
+    \small +91 79070 75318 $|$ \href{mailto:shyamjames.dev@gmail.com}{\underline{shyamjames.dev@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/shyamjames74}{\underline{https://linkedin.com/in/shyamjames74}} $|$
+    \href{https://github.com/shyamjames}{\underline{https://github.com/shyamjames}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\vspace{2pt}
+\small{MCA student and Linux power user with a strong foundation in system automation and shell scripting. Experienced in developing and deploying web applications using Python, Django, and Git. Passionate about streamlining infrastructure through CI/CD and containerization, aiming to leverage hands-on experience in Linux environments to support cloud operations, automate workflows, and enhance deployment pipelines.}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rajagiri College of Social Sciences}{2025 -- 2027}
+      {Master of Computer Applications (MCA)}{Ernakulam, Kerala}
+    \resumeSubheading
+      {St. Thomas College, Palai (Mahatma Gandhi University)}{2021 -- 2024}
+      {Bachelor of Computer Applications (BCA)}{Palai, Kerala}
+    \resumeSubheading
+      {Jawahar Navodaya Vidyalaya}{2014 -- 2021}
+      {12th CBSE (87\%), 10th CBSE (89.6\%)}{Wayanad, Kerala}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Operating Systems}{: Linux (Arch Linux), Windows} \\
+     \textbf{DevOps \& Deployment}{: Docker, GitHub Actions, CI/CD, Git, cPanel, Makefiles} \\
+     \textbf{Scripting \& Automation}{: Python, Shell Scripting} \\
+     \textbf{Web Technologies \& Frameworks}{: Django, Flask, HTML/CSS, REST API, JSON} \\
+     \textbf{Methodologies \& Soft Skills}{: Agile, Problem-Solving, Remote Collaboration} \\
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {RLabz}{December 2025 -- Present}
+      {Web Developer}{Ernakulam, Kerala}
+      \resumeItemListStart
+        \resumeItem{Managed the deployment and ongoing maintenance of the 11th International Conference (icswhmh.com), serving a global audience.}
+        \resumeItem{Ensured 99.9\% high availability and a seamless environment by effectively managing production web hosting infrastructure.}
+        \resumeItem{Led front-end optimization efforts, tracking cross-device compatibility across 3+ major browser platforms.}
+      \resumeItemListEnd
+
+    \resumeSubheading
+      {Christuraj Hostel}{January 2022 -- March 2024}
+      {Website Administrator}{Palai, Kerala}
+      \resumeItemListStart
+        \resumeItem{Redesigned and administered the official website for Christuraj Hostel over a 2-year period, optimizing the UI for improved user engagement.}
+        \resumeItem{Monitored site performance, proactively updating web content and implementing critical web accessibility standards.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{System Resource Monitor} $|$ \emph{Java Swing, PostgreSQL, System Operations}}{}
+          \resumeItemListStart
+            \resumeItem{Developed a robust application for real-time infrastructure monitoring, tracking live CPU, memory, and disk I/O metrics with minimal overhead.}
+             \resumeItem{Implemented a logging system via PostgreSQL, successfully recording monitoring sessions and 100+ historical snapshots.}
+             \resumeItem{\href{https://github.com/shyamjames/SystemResourceMonitor}{\underline{github.com/shyamjames/SystemResourceMonitor}}}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Image Web Pipeline} $|$ \emph{Shell Scripting, Makefiles, Automation}}{}
+          \resumeItemListStart
+             \resumeItem{Architected a high-performance automation pipeline employing Makefiles and shell scripting, significantly reducing build time for responsive web assets.}
+             \resumeItem{Streamlined practical workflows closely aligning with CI/CD methodologies to automate daily deployment readiness.}
+             \resumeItem{\href{https://github.com/shyamjames/web-img-pipeline}{\underline{github.com/shyamjames/web-img-pipeline}}}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Email Spam Detection} $|$ \emph{Python, Django, Git}}{}
+          \resumeItemListStart
+            \resumeItem{Built and fully deployed a spam detection system spanning a production backend, achieving high classification accuracy.}
+            \resumeItem{Managed the complete application lifecycle, from backend development to version control through Git and cross-platform Android/Web integration.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+\end{document}

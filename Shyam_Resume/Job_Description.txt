@@ -1,0 +1,90 @@
+About the job
+Junior DevOps Engineer Intern (Remote) – Skillzenloop
+
+
+
+Location: Remote
+
+Type: Full-Time Internship
+
+Stipend: ₹17,000/month
+
+Duration: 1–3 Months
+
+
+
+Skillzenloop is hiring a DevOps Engineer Intern to work on real-world infrastructure and deployment pipelines. This role is ideal for students and freshers who want hands-on experience in CI/CD, cloud platforms, automation, and system operations in a practical, project-based environment.
+
+
+
+Key Responsibilities
+
+• Assist in setting up and managing CI/CD pipelines
+
+• Work on deployment, monitoring, and maintenance of applications
+
+• Automate workflows and repetitive tasks using scripts
+
+• Manage and configure servers and cloud infrastructure
+
+• Work with containerization tools like Docker
+
+• Monitor system performance and troubleshoot issues
+
+• Collaborate with development teams for smooth deployment processes
+
+• Maintain documentation for infrastructure and deployment processes
+
+
+
+Required Skills
+
+• Basic understanding of DevOps concepts and practices
+
+• Familiarity with Linux/Unix systems
+
+• Basic knowledge of cloud platforms (AWS, Azure, or GCP) is a plus
+
+• Understanding of CI/CD tools (GitHub Actions, Jenkins, etc.)
+
+• Familiarity with Docker or containerization is an advantage
+
+• Basic scripting knowledge (Shell, Python, etc.)
+
+• Knowledge of Git/GitHub is preferred
+
+• Strong problem-solving and analytical skills
+
+• Ability to work independently in a remote environment
+
+
+
+Eligibility Criteria
+
+• Students or recent graduates from Computer Science, IT, or related fields
+
+• Freshers with basic DevOps or system knowledge are encouraged to apply
+
+• Candidates with projects in cloud, CI/CD, or automation will have an advantage
+
+• Must be available for a full-time remote internship
+
+
+
+Perks and Benefits
+
+• Monthly stipend of ₹17,000
+
+• Hands-on experience with real-world DevOps and cloud projects
+
+• Internship completion certificate
+
+• Opportunity to build a strong DevOps portfolio
+
+• Exposure to industry-standard tools and workflows
+
+• Learning-focused and growth-oriented environment
+
+
+
+This internship is a strong opportunity for individuals looking to start their career in DevOps and gain practical experience in automation, cloud infrastructure, and deployment processes.

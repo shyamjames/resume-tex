@@ -1,0 +1,19 @@
+Technical Skills
+Linux System Administration: Deep familiarity with Linux environments (Arch Linux, Unix) and terminal-based system management.
+
+Scripting & Automation: Proficiency in Python and Shell scripting to automate repetitive system tasks.
+
+Version Control: Advanced Git/GitHub workflows, including branching, merging, and pull request management.
+
+Containerization: Understanding of Docker for creating and managing application environments.
+
+CI/CD: Experience with GitHub Actions for automating deployment pipelines.
+
+Web Deployment: Hands-on experience deploying applications using Flask, Django, and web servers like Nginx or Gunicorn.
+
+Soft Skills
+Problem-Solving: Strong analytical skills for troubleshooting system errors and deployment failures.
+
+Documentation: Ability to maintain clear technical guides for infrastructure setups.
+
+Remote Collaboration: Proven ability to manage projects independently in a remote setting.

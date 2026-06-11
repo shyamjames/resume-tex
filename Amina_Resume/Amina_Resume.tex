@@ -1,0 +1,154 @@
+%-------------------------
+% ATS-Friendly LaTeX Resume
+% Amina Muhammed
+%-------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{microtype}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting — ATS-safe: plain text headings
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & \small #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.25in, itemsep=2pt, parsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+% RESUME STARTS HERE
+%-------------------------------------------
+
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    {\Huge \scshape Amina Muhammed} \\ \vspace{4pt}
+    \small
+    +91-8921021202 $|$
+    \href{mailto:aminamuhammed9060@gmail.com}{aminamuhammed9060@gmail.com} $|$
+    Kochi, Kerala, India
+\end{center}
+
+
+%---------- SUMMARY ----------
+\section{Summary}
+Motivated MCA student with practical experience in Python, Django, PHP, and front-end web technologies. Skilled in developing dynamic, user-focused web applications. Eager to contribute to real-world software development roles and grow within a collaborative engineering team.
+
+
+%---------- EDUCATION ----------
+\section{Education}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {Rajagiri College of Social Sciences}{Kochi, Kerala}
+    {Master of Computer Application (MCA) -- MG University}{2025 -- 2027}
+
+  \resumeSubheading
+    {KMEA College of Arts \& Science}{Kochi, Kerala}
+    {Bachelor of Computer Application (BCA) -- MG University}{2022 -- 2025}
+
+  \resumeSubheading
+    {Al-Ameen Public School}{Kerala}
+    {Senior Secondary, CBSE (Class XII)}{2020 -- 2022}
+
+  \resumeSubheading
+    {Al-Ameen Public School}{Kerala}
+    {High School, CBSE (Class X)}{2020}
+
+\resumeSubHeadingListEnd
+
+
+%---------- PROJECTS ----------
+\section{Projects}
+\resumeSubHeadingListStart
+
+  \resumeProjectHeading
+    {Athlete Coach $|$ \emph{Python, Django, SQLite}}{2024}
+    \resumeItemListStart
+      \resumeItem{Built a web-based platform to streamline communication between athletes, coaches, physiotherapists, and administrators.}
+      \resumeItem{Implemented features for managing training schedules, tracking athlete progress, and recording physiotherapy updates.}
+      \resumeItem{Developed role-based admin dashboards to handle user and content management efficiently.}
+    \resumeItemListEnd
+
+  \resumeProjectHeading
+    {TYLA -- Take Your Loan Anywhere $|$ \emph{PHP, HTML, CSS, MySQL}}{2024}
+    \resumeItemListStart
+      \resumeItem{Developed a web-based loan management system enabling users to apply for loans and track application status online.}
+      \resumeItem{Implemented core loan lifecycle features including application submission, status tracking, and basic account management.}
+    \resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+
+%---------- SKILLS ----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages:} Python, PHP, HTML, CSS \\
+    \textbf{Frameworks:} Django, Flask \\
+    \textbf{Databases:} MySQL, SQLite, SQL \\
+    \textbf{Tools \& Platforms:} Git, VS Code \\
+    \textbf{Professional Skills:} Teamwork, Problem Solving, Leadership, Communication
+  }}
+\end{itemize}
+
+
+%---------- CERTIFICATIONS ----------
+\section{Certifications}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {Graphic Design $|$ \emph{MSME Technology Development Centre}}{}
+\resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}

@@ -1,0 +1,63 @@
+﻿Details
+Shyam James
+shyamjames.dev@gmail.com
++91 79070 75318
+github.com/shyamjames
+linkedin.com/in/shyamjames74
+
+
+Experience
+1. RLabz, Ernakulam                                                                                        December 2025 - present
+Web Developer
+Collaborated on the conceptualization, development, and deployment of the official website for the 11th International Conference on Social Work in Health and Mental Health (icswhmh.com).
+Led front-end responsiveness efforts, ensuring a seamless user experience across all device ty
+2. Corezone Solutions, Kacherippady, Ernakulam                                        February 2024
+Full Stack Developer Intern
+Developed an email spam detection system using Python to filter spam emails.
+Built a full-stack web application using Django, and deployed it as Web and Android apps for seamless integration across platforms.
+3. Christuraj Hostel, Palai                                                                     2022 - 2024
+Website Administrator
+Redesigned and administered the official website of Christuraj Hostel Palai using wix.com from January 2022 till March 2024.
+christurajhostel.com 
+
+
+Education
+1. Rajagiri College of Social Sciences
+2025-2027
+MCA - Master of Computer Applications
+2. St. Thomas College, Palai - Mahatma Gandhi University                                               2021 - 2024
+Bachelor of Computer Applications                                                                 6.72
+Developed a solid foundation in computer science principles, including data structures, algorithms, and database management.
+Studied key concepts in software engineering, networking, and operating systems, preparing for real-world application.
+Created a web-based examination management system using PHP, HTML, CSS, and MySQL  to streamline exam scheduling and result management.
+3. Jawahar Navodaya Vidyalaya, Wayanad                                                2014 - 2021
+* 12th - CBSE                                                                         2021
+87% Biology Maths
+* 10th - CBSE
+2019
+89.6%
+
+
+
+
+Projects
+1. Website for 11th International Conference on Social Work in Health and Mental Health icswhmh.com 
+Dec 2025 – Present
+2. SystemResourceMonitor
+https://github.com/shyamjames/SystemResourceMonitor
+A Java Swing desktop application that monitors live system resource usage (CPU, memory, disk I/O) and displays the top running processes. It also supports recording monitoring sessions to a PostgreSQL database, viewing historical snapshots, and basic admin management for users and known processes.
+3. ai_web_helper
+A python library which uses Google Gemini for AI Assistance, can be found in the name: ai_web_helper.
+4. Image Web Pipeline
+https://github.com/shyamjames/web-img-pipeline 
+A high-performance Makefile-based image processing pipeline for generating responsive web assets.
+
+
+Certifications
+1. Google Cybersecurity Specialization
+Google
+2. Certified Cybersecurity Analyst
+RedTeam360
+
+
+Skills

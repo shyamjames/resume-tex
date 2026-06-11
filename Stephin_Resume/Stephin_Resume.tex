@@ -1,0 +1,134 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{geometry}
+\usepackage{graphicx}
+
+% Page layout
+\geometry{
+    a4paper,
+    left=0.75in,
+    right=0.75in,
+    top=0.6in,
+    bottom=0.6in
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{minipage}[c]{0.75\textwidth}
+\begin{flushleft}
+    \textbf{\Huge \scshape Stephin Antony} \\ \vspace{5pt}
+    % Contact info could be added here if available
+\end{flushleft}
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.20\textwidth}
+\begin{flushright}
+    \includegraphics[width=1in, height=1.25in, keepaspectratio]{stephin.jpeg}
+\end{flushright}
+\end{minipage}
+\vspace{10pt}
+
+%-----------CAREER OBJECTIVE-----------
+\section{Career Objective}
+\vspace{2pt}
+\small{To work in an environment which encourages me to succeed and grow professionally, where I can utilize my skills and knowledge appropriately for myself as well as the organization.}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {St. Thomas College, Palai (Mahatma Gandhi University)}{2022 -- 2025}
+      {Bachelor of Arts (Political Science)}{Pala, Kerala}
+    \resumeSubheading
+      {St. Xavier's Higher Secondary School, Chemmmannar}{2013 -- 2022}
+      {12th (90\%), 10th (96\%)}{Idukki, Kerala}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE & RESPONSIBILITIES-----------
+\section{Positions Held \& Responsibilities}
+  \resumeItemListStart
+    \resumeItem{\textbf{School Leader}: Served as the school leader at St. Xavier's Higher Secondary School.}
+    \resumeItem{\textbf{Event Coordinator}: Conceptualized, hosted, and conducted various corporate/organizational programs, ensuring smooth execution and high audience engagement.}
+    \resumeItem{\textbf{Digital Management}: Assisted in managing online platforms, updating content, and monitoring digital engagement to maintain a positive and professional organizational image.}
+  \resumeItemListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {Growing International Youth Migration: Trends and Analysis Among Pala Municipality}{}
+    \resumeSubHeadingListEnd
+
+%-----------ACHIEVEMENTS-----------
+\section{Achievements}
+  \resumeItemListStart
+    \resumeItem{Awarded Best Student in school.}
+    \resumeItem{Represented the college mime team at the University Art Festival.}
+    \resumeItem{Awarded the title of Best Student Police Cadet in 2020.}
+    \resumeItem{Hold an NCC B Certificate.}
+  \resumeItemListEnd
+
+%-----------SKILLS-----------
+\section{Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Technical Skills}{: MS PowerPoint} \\
+     \textbf{Soft Skills}{: Patience, Multi-Tasking, Communication, Leadership} \\
+     \textbf{Languages}{: English (Read, Write, Speak), Malayalam (Read, Write, Speak), Hindi (Read, Write), Tamil (Speak)}
+    }}
+ \end{itemize}
+
+\end{document}
