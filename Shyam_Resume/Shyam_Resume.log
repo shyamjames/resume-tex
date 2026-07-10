@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.7.10)  10 JUL 2026 23:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026/Arch Linux) (preloaded format=pdflatex 2026.7.10)  10 JUL 2026 23:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -335,12 +335,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 117.
-
-Overfull \hbox (50.4817pt too wide) in alignment at lines 137--137
-[] []
- []
-
+(Font)              <6> on input line 118.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -363,18 +358,18 @@ Package rerunfilecheck Info: File `Shyam_Resume.out' has not changed.
 Here is how much of TeX's memory you used:
  10130 strings out of 469515
  160335 string characters out of 5470807
- 616156 words of memory out of 5000000
+ 615156 words of memory out of 5000000
  38711 multiletter control sequences out of 15000+600000
  631104 words of font info for 51 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,11n,79p,458b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,426b,463s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
 cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
 r/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Shyam_Resume.pdf (1 page, 109486 bytes).
+Output written on Shyam_Resume.pdf (1 page, 109030 bytes).
 PDF statistics:
  75 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream
