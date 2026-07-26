@@ -1,0 +1,160 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{microtype}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-0.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting — ATS-safe: plain text headings
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{#1}
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+  \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small\textbf{#1} & \small #2 \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}[leftmargin=0.25in, itemsep=2pt, parsep=0pt, topsep=0pt]}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-------------------------------------------
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+    {\Huge \scshape DONA ANN JIJI} \\ \vspace{4pt}
+    \small
+    +44 7459080135 $|$
+    \href{mailto:donaann84@gmail.com}{donaann84@gmail.com} $|$
+    182 Cutenhoe Road, Luton, LU1 3NJ, UK
+\end{center}
+
+%---------- SUMMARY ----------
+\section{Summary}
+Dedicated and proactive individual with hands-on experience in fast-paced environments, including retail, warehousing, and hospitality. Adept at collecting stock from warehouses using heavy roll cages and maintaining tidy, well-presented shelves. Passionate about delivering brilliant customer service, proactively offering help, and building strong product knowledge to provide accurate recommendations. Highly reliable in date checking fresh produce, supporting store deliveries, and assisting flexibly across all store operations.
+
+%---------- SKILLS ----------
+\section{Key Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Retail \& Warehouse Operations:} Stock Replenishment, Heavy Roll Cage Handling, Date Checking, Fresh Produce Quality Control, Store Maintenance, Delivery Support \\
+    \textbf{Customer Service:} Proactive Assistance, Query Resolution, Product Recommendations, Promotion Awareness \\
+    \textbf{Professional Skills:} Communication, Teamwork, Time Management, Adaptability, Attention to Detail, Manual Handling, Problem-Solving, Multitasking
+  }}
+\end{itemize}
+
+%---------- EDUCATION ----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {University of Hertfordshire}{Hatfield, UK}
+    {MSc Data Science}{2024 -- 2025}
+  \resumeSubheading
+    {MG University}{Kerala, India}
+    {Bachelor of Computer Applications (BCA)}{2021 -- 2024}
+\resumeSubHeadingListEnd
+
+%---------- PROJECTS ----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+    {Calorie Burn Prediction Using Machine Learning $|$ \emph{Python, ML}}{2025}
+    \resumeItemListStart
+      \resumeItem{Built classification models to predict calorie burn levels using fitness activity data.}
+      \resumeItem{Implemented and compared Logistic Regression, Random Forest, SVM, and Neural Network algorithms.}
+      \resumeItem{Applied feature engineering (e.g., Heart Rate Range) and data imputation to handle class imbalance.}
+      \resumeItem{Achieved best performance with Balanced Random Forest (\textasciitilde56\% accuracy).}
+    \resumeItemListEnd
+  \resumeProjectHeading
+    {Student Support System (Web \& Mobile Application) $|$ \emph{Web \& Mobile Development}}{2024}
+    \resumeItemListStart
+      \resumeItem{Designed and developed a dual-platform system (website and mobile app) for hostel students.}
+      \resumeItem{Enabled features for permission requests, issue reporting, and real-time communication between students, management, and parents.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%---------- EXPERIENCE ----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Retail Assistant}{Uzhavoor, India}
+    {Neelagiri Super Market}{2024}
+    \resumeItemListStart
+      \resumeItem{Collected stock from the warehouse and replenished items across the store, keeping shelves tidy and full of well-presented products.}
+      \resumeItem{Provided brilliant customer service by proactively offering help and supporting customers with any questions.}
+      \resumeItem{Built comprehensive knowledge about products, services, and promotions to help provide accurate recommendations.}
+      \resumeItem{Regularly conducted date checking for fresh produce and grocery products to maintain high quality standards.}
+      \resumeItem{Assisted flexibly across the store as needed and supported with deliveries as required.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Kitchen Assistant}{Stevenage, UK}
+    {Hospitality}{2025}
+    \resumeItemListStart
+      \resumeItem{Assisted with food preparation and ensured adherence to kitchen hygiene protocols.}
+      \resumeItem{Collaborated effectively within fast-paced, team-oriented kitchen environments.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Housekeeper}{Stevenage, UK}
+    {Domestic Services}{2025}
+    \resumeItemListStart
+      \resumeItem{Upheld cleanliness and hygiene standards in professional settings.}
+      \resumeItem{Demonstrated strong attention to detail and reliable time management.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Warehouse Operative}{Milton Keynes, UK}
+    {Logistics}{2024}
+    \resumeItemListStart
+      \resumeItem{Managed sorting and packaging workflows in a high-paced logistics environment.}
+      \resumeItem{Maintained accuracy and efficiency standards across daily operational tasks.}
+    \resumeItemListEnd
+  \resumeSubheading
+    {Care Assistant}{Bedford, UK}
+    {Healthcare Support}{2024}
+    \resumeItemListStart
+      \resumeItem{Supported patients with daily living activities and monitored their overall well-being.}
+      \resumeItem{Maintained accurate care records and liaised effectively with healthcare teams.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+\end{document}
