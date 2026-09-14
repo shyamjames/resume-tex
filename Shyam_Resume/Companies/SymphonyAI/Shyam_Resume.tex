@@ -1,0 +1,156 @@
+\documentclass[a4paper,11pt]{article}
+
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{geometry}
+
+% Page layout
+\geometry{
+    a4paper,
+    left=0.75in,
+    right=0.75in,
+    top=0.6in,
+    bottom=0.6in
+}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Margins managed by geometry package
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\titlerule \vspace{-5pt}]
+
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    \textbf{\Huge \scshape Shyam James} \\ \vspace{5pt}
+    \small +91 79070 75318 $|$ \href{mailto:shyamjames.dev@gmail.com}{\underline{shyamjames.dev@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/shyamjames74}{\underline{https://linkedin.com/in/shyamjames74}} $|$
+    \href{https://github.com/shyamjames}{\underline{https://github.com/shyamjames}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Professional Summary}
+\vspace{2pt}
+\small{MCA student with hands-on backend engineering experience across C\#/.NET, Java, Python, and Django. Built and deployed production systems handling role-based workflows, relational data models, async processing, and cloud infrastructure (AWS). Strong DSA and OOP foundation. Proficient in Linux-based development environments, CI/CD, containerization, and Agile/Scrum practices. Seeking a software engineering role applying strong debugging, API, and system design skills to enterprise-scale platforms.}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Rajagiri College of Social Sciences}{2025 -- 2027}
+      {Master of Computer Applications (MCA)}{Ernakulam, Kerala}
+    \resumeSubheading
+      {St. Thomas College, Palai (Mahatma Gandhi University)}{2021 -- 2024}
+      {Bachelor of Computer Applications (BCA)}{Palai, Kerala}
+    \resumeSubheading
+      {Jawahar Navodaya Vidyalaya}{2014 -- 2021}
+      {12th CBSE (87\%), 10th CBSE (89.6\%)}{Wayanad, Kerala}
+  \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Programming \& Backend}{: C\#/.NET, Java, Python, OOP, DSA} \\
+     \textbf{Web \& APIs}{: Django, Flask, REST API design, JSON, HTML, CSS} \\
+     \textbf{Cloud \& DevOps}{: AWS (EC2, S3), Docker, CI/CD, GitHub Actions, Git, Linux (Arch)} \\
+     \textbf{AI \& GenAI Tools}{: Exposure to GenAI/LLM tools (Codex, Antigravity)} \\
+     \textbf{Soft Skills}{: Agile/Scrum, Debugging \& Root-Cause Analysis, Problem-Solving} \\
+    }}
+ \end{itemize}
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {RLabz}{December 2025 -- Present}
+      {Full Stack Developer}{Ernakulam, Kerala}
+      \resumeItemListStart
+        \resumeItem{Partnered on the development, deployment and ongoing maintenance of the 11th International Conference on Social Work in Health and Mental Health (icswhmh.com), serving a global audience, with 99.9\% uptime.}
+        \resumeItem{Co-developed the Academic Evaluation Platform and its companion Answer Script Generation \& Preparation Tool, now live and in active use by the college.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------LEADERSHIP-----------
+\section{Leadership \& Activities}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Google Student Ambassador}{May 2026 -- Present}
+      {Campus Representative for Gemini}{Rajagiri College of Social Sciences}
+    \resumeSubheading
+      {Placement Cell Representative}{}
+      {Rajagiri College of Social Sciences}{}
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Academic Evaluation Platform} $|$ \emph{Django, PostgreSQL, AWS EC2, AWS S3}}{}
+          \resumeItemListStart
+            \resumeItem{Co-developed a system supporting 100+ concurrent users and $\sim$15,000 records, now live and in active use by the college.}
+            \resumeItem{Deployed a scalable mark-entry pipeline on AWS EC2 using async task processing (Django-Q) and AWS S3.}
+            \resumeItem{Implemented an advanced accessibility panel supporting dyslexia-friendly fonts, colorblind modes, and high-contrast themes.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Answer Script Generation \& Preparation Tool} $|$ \emph{.NET 8, Avalonia}}{}
+          \resumeItemListStart
+            \resumeItem{Co-developed a .NET desktop application for generating and preparing answer scripts (bulk PDF/QR processing) for the evaluation platform pipeline.}
+            \resumeItem{Engineered high-throughput batch processing, generating 1,000+ scripts in under 30 seconds and scanning 400+ scripts per minute.}
+            \resumeItem{Deployed and actively used live by the college alongside the Academic Evaluation Platform.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+\end{document}
